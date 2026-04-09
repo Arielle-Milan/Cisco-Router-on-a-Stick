@@ -1,10 +1,18 @@
-I did the project in Cisco Packet Tracer. 
-Inter-VLAN Routing using Router-on-a-Stick (RoS) Project:
+#Inter-VLAN Routing using Router-on-a-Stick (RoS) Project
 
-Project Overview-
+##Project Overview-
 The goal of this project is to segment a network into different VLANs (HR, Finance, IT) using a switch and a router. Router-on-a-Stick will be used to enable inter-VLAN routing, where the router handles communication between VLANs.
 
-Devices, IP Addresses, and Cables-
+##Learning Objectives
+1. Confgiure a signle route interface.
+2. The aim was for the router to route traffic between multiple VLANd.
+3. I learnt how to create VLANs, configure trunk ports and setting up subinterfaces.
+
+
+##Requirements-
+1. Cisco Packet Tracer 
+
+##Devices, IP Addresses, and Cables-
 1. Router0	(Cisco 2811) was renamed to Router.
 2. Switch0	(Cisco 2960) was renamed to	Switch.
 3. PC0	(Cisco PC) was renamed to	HR.
@@ -21,7 +29,7 @@ o	Default Gateway: 192.168.20.1
 3.	IT PC: 192.168.30.10/24
 o	Default Gateway: 192.168.30.1
 
-Cables and Interfaces:
+##Cables and Interfaces-
 A Copper Straight-through cable was used to connect all the devices.
 1. Router (FastEthernet0/0) to Switch (FastEthernet0/4)
 2.	Switch (FastEthernet0/1) to HR (FastEthernet0)
@@ -51,7 +59,7 @@ Topology Version 2:
  
 
  
-Implementation Steps
+##Implementation Steps-
 Step 1: Configure VLANs
 I then created VLANs on the switch for HR, Finance, and IT departments.
 
@@ -189,5 +197,4 @@ C:> ping 192.168.10.20
 C:> ping 192.168.20.20  
 
 
-*See the attached images for reference.
-*I have also attached the packet tracer file to view the entire topology.
+
