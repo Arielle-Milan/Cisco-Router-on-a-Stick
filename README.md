@@ -37,7 +37,7 @@ A Copper Straight-through cable was used to connect all the devices.
 Topology Version 1:
 The interface between the router and the switch is shown in the image below. The red triangles indicated this. In the following steps, I showed how to fix this issue.
 *see topology_version_1.png for reference.
- ![Screenshot of the frist version of the topology](https://drive.google.com/file/d/1c09acTjChsAO5wQ_NNwlkcn5spq2eWiv/view?usp=sharing)
+
 Correction:
 I fixed the error in the Router CLI.
 
